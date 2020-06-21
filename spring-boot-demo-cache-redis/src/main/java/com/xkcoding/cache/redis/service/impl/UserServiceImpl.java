@@ -56,7 +56,7 @@ public class UserServiceImpl implements UserService {
     }
 
     /**
-     * 获取用户
+     * 获取用户  执行后会加入缓存
      *
      * @param id key值
      * @return 返回结果
@@ -70,7 +70,7 @@ public class UserServiceImpl implements UserService {
     }
 
     /**
-     * 删除
+     * 删除  执行后会移除缓存
      *
      * @param id key值
      */
